@@ -2,3 +2,9 @@ body {
   background-color: hsl(235, 18%, 26%);
   width: 100%;
 }
+
+.main-box {
+  background-color: hsl(0, 0%, 100%);
+  margin: 100px 100px 100px 100px;
+  min-height: 70vh;
+}
