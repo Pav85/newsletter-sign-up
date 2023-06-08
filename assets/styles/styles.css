@@ -8,4 +8,39 @@ body {
   background-color: hsl(0, 0%, 100%);
   margin: 100px 100px 100px 100px;
   min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main-box::after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.inner-box-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ul li::before {
+  content: url("./assets/images/icon-list.svg");
+  margin-right: 5px;
+} */
+
+.list-element-style {
+  padding-bottom: 5px;
 }
